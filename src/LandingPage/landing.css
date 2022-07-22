@@ -1,0 +1,27 @@
+.img_bg{
+    margin: 20vh 5vw 0 0;
+}
+.body ~ .landing_container {
+    background-color: black;
+}
+#img-banner{
+    width: 250px;
+}
+.landing_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.content{
+    color: rgb(99, 168, 99);
+    text-align: center;
+    margin: 20vh 5vw 0 0;
+
+}
+button{
+    border: 1px solid rgb(99, 168, 99);
+    color: rgb(99, 168, 99);
+    border-radius: 10px;
+    padding: 10px 20px;
+}
