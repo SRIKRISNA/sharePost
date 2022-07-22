@@ -7,7 +7,7 @@ import axios from "axios";
 const PostView = ()=> {
     const [userData, setPostData] = useState([]);
     useEffect(()=> {
-        axios.get('http://localhost:3005/postform').then((res)=>{
+        axios.get('https://instacloneserver.herokuapp.com/postform').then((res)=>{
             let data = res.data.reverse();
             console.log(data)
             setPostData(data);
