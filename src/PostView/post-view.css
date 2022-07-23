@@ -71,6 +71,7 @@ h3 > span{
 #footer{
     background: #7f0392;
     color: white;
-    height: 45px;
     width: 100w;
+    bottom: 0;
+    padding: 1px 0px;
 }

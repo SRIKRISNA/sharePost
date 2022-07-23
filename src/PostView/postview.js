@@ -57,7 +57,7 @@ const PostView = ()=> {
                     }
                 </div>
                 <div id="footer">
-                    <p style={{"textAlign":"center"}}>Designed and Developed By <a href="https://www.allwebsites.in/">SRIKRISHNA</a>. &copy All Rights Reserved.</p>
+                    <p style={{"textAlign":"center"}}>Designed and Developed By <a href="https://www.allwebsites.in/" style={{"color":"antiquewhite"}}>SRIKRISHNA</a> &#169; All Rights Reserved.</p>
                 </div>
             </div>
         </>
