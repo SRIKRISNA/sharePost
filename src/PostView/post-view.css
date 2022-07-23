@@ -24,7 +24,7 @@
     border-bottom: 0px solid rgb(145, 206, 170);
 }
 .postContainer{
-    top: 60px;
+    padding-top: 60px;
 }
 #logo{
     margin-left: 5vw;
@@ -32,9 +32,10 @@
 }
 #camera{
     margin-right: 5vw;
+    height: 45px;
 }
 #postimg{
-    min-width: inherit !important;
+    min-width: -webkit-fill-available;
 }
 img{
     max-width: -webkit-fill-available;
