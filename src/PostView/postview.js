@@ -26,7 +26,7 @@ const PostView = ()=> {
                         <a href="./postform"><img src={Camera} alt="camera" id="camera"></img></a>
                     </div>
                 </header>
-                <div >
+                <div className="postContainer">
                     {
                         userData.map((post,i)=> {
                             return (
@@ -36,7 +36,7 @@ const PostView = ()=> {
                                         <span id="dots"><h1>...</h1></span>
                                     </div>
                                     <div className="user-image">
-                                        <img src={post.image} alt="user-defined-imge"></img>
+                                        <img src={post.image} id="postimg" alt="user-defined-imge"></img>
                                     </div>
                                     <div className="user-meta">
                                         <span>{post.date}</span>

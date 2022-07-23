@@ -14,19 +14,32 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    width: 100vw;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background: white;
     box-shadow: 2px 2px #f2f2f2;
     border-bottom: 0px solid rgb(145, 206, 170);
 }
+.postContainer{
+    top: 60px;
+}
 #logo{
     margin-left: 5vw;
+    height: 60px;
 }
 #camera{
     margin-right: 5vw;
 }
-img{
-    max-width: -webkit-fill-available;
+#postimg{
     min-width: inherit !important;
 }
+img{
+    max-width: -webkit-fill-available;
+}
+
 .user-information{
     margin: 0px 20px;
     display: flex;
