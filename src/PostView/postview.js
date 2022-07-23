@@ -1,5 +1,5 @@
 import Logo from "../assests/instaclone.svg";
-import Camera from "../assests/camera.png";
+import Camera from "../assests/camera.gif";
 import { useEffect, useState} from "react";
 import "./post-view.css";
 import axios from "axios";

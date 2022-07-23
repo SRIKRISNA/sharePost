@@ -1,5 +1,5 @@
 import Logo from "../assests/instaclone.svg";
-import Camera from "../assests/camera.png";
+import Camera from "../assests/camera.gif";
 import "./postform.css";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";

@@ -25,6 +25,7 @@
 }
 img{
     max-width: -webkit-fill-available;
+    min-width: inherit;
 }
 .user-information{
     margin: 0px 20px;
