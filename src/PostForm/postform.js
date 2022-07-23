@@ -61,7 +61,9 @@ const PostForm = () =>{
                     <input type="submit" id="submitbtn" value="Submit" onClick={handlePosts}/>
                 </form>
             </div>
-            
+            <div id="footer">
+                <p style={{"textAlign":"center"}}>Designed and Developed By <a href="https://www.allwebsites.in/">SRIKRISHNA</a>. &copy All Rights Reserved.</p>
+            </div>
         </div>
         </>
     );

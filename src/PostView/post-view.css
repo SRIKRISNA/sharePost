@@ -66,3 +66,11 @@ h3 > span{
 #likes{
     padding-right: 10px;
 }
+
+/* footer */
+#footer{
+    background: #7f0392;
+    color: white;
+    height: 45px;
+    width: 100w;
+}
