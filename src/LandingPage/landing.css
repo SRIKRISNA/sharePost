@@ -13,15 +13,22 @@
     justify-content: center;
     height: 100%;
 }
+#getinText{
+    font-size: 35px;
+}
 .content{
-    color: rgb(99, 168, 99);
+    color: #7f0392;
     text-align: center;
     margin: 20vh 5vw 0 0;
 
 }
 button{
-    border: 1px solid rgb(99, 168, 99);
-    color: rgb(99, 168, 99);
+    border: 1px solid #004aad;
+    color: #004aad;
     border-radius: 10px;
-    padding: 10px 20px;
+    padding: 7px 30px;
+}
+button:hover{
+    background: #004aad;
+    color: white;
 }

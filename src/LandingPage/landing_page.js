@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import Banner from '../assests/bgimg.jpg';
+import Banner from '../assests/bgimg.png';
 import './landing.css';
 
 const LandingPage = () =>{
@@ -15,8 +15,8 @@ const LandingPage = () =>{
                      <img src={Banner} alt="BannerImage" id='img-banner'></img>
                 </div>
                 <div className='content'>
-                    <h2>10X Team 04</h2>
-                    <button type='button' style={{"cursor":"pointer"}} onClick={handleSubmit}>Enter</button>
+                    <h2 id='getinText'>Share Post</h2>
+                    <button type='button' style={{"cursor":"pointer"}} onClick={handleSubmit}>Click to get in</button>
                 </div>
             </div>
         </>
