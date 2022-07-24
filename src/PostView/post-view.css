@@ -1,12 +1,12 @@
 .post{
     margin: 20px;
-    box-shadow: 2px 2px #e9ec08;
     max-width: 30vw;
     border-radius: 10px;
     padding-bottom: 20px;
     display: block;
     margin: 20px auto;
     background: white;
+    box-shadow: 0 15px 25px rgb(0 0 0 / 30%);
 }
 .nav{
     min-height: 40px;
@@ -26,7 +26,6 @@
     padding-top: 60px;
     background: #0f0808;
     padding-bottom: 1px;
-    box-shadow: 0 15px 25px rgb(0 0 0 / 20%);
 }
 #logo{
     margin-left: 5vw;
@@ -67,6 +66,7 @@ h3 > span{
 }
 #likes{
     padding-right: 10px;
+    margin-top: 7px;
 }
 
 /* footer */
