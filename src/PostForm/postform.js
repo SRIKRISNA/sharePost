@@ -1,9 +1,9 @@
-import Logo from "../assests/instaclone.svg";
-import Camera from "../assests/camera.gif";
 import "./postform.css";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
+import Header from "../Header/header";
+import Footer from "../Footer/footer";
 
 const PostForm = () =>{
     const [posts,setPosts] = useState({image:"",author:"", location:"", description:""});
@@ -45,15 +45,12 @@ const PostForm = () =>{
         <>
         <div className="container">
             <header>
-                    <div className="nav">
-                        <a href="/"> <img src={Logo} alt="insta-logo" id="logo"></img></a>
-                        <a href="./postform"><img src={Camera} alt="camera" id="camera"></img></a>
-                    </div>
+                    <Header />
             </header>
             <div className="formContainer">
             
                 <form method="POST">
-                    <h2 style={{"textAlign":"center", "color":"rgb(99, 168, 99)"}}>Add New Post</h2>
+                    <h2 style={{"textAlign":"center", "color":"#7f0392"}}>Add New Post</h2>
                     <input type="file" onChange={(e)=> afterUpload(e) } ></input>     
                     <input type="text" value={posts.author} onChange={(e)=>{setPosts({...posts, author: e.target.value})}} id="author" name="author" placeholder="Author" />
                     <input type="text" value={posts.location} onChange={(e)=>{setPosts({...posts, location: e.target.value})}} id="location" name="location" placeholder="Location" />
@@ -61,9 +58,7 @@ const PostForm = () =>{
                     <input type="submit" id="submitbtn" value="Submit" onClick={handlePosts}/>
                 </form>
             </div>
-            <div id="footer">
-                <p style={{"textAlign":"center"}}>Designed and Developed By <a href="https://www.allwebsites.in/">SRIKRISHNA</a>. &copy All Rights Reserved.</p>
-            </div>
+            <Footer/>
         </div>
         </>
     );

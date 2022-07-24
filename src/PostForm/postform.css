@@ -25,13 +25,7 @@
     background: transparent;
 }
 #submitbtn{
-    padding: 7px;
     width: -webkit-fill-available;
-    background-color: rgb(99, 168, 99);
-    border: none;
 }
 #submitbtn:hover{
-    cursor: pointer;
-    background-color: aliceblue;
-    border: 1px solid rgb(99, 168, 99);
 }

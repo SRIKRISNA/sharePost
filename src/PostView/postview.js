@@ -2,6 +2,7 @@ import { useEffect, useState} from "react";
 import "./post-view.css";
 import axios from "axios";
 import Header from "../Header/header";
+import Footer from "../Footer/footer";
 
 const PostView = ()=> {
     const [userData, setPostData] = useState([]);
@@ -52,9 +53,7 @@ const PostView = ()=> {
                         })
                     }
                 </div>
-                <div id="footer">
-                    <p style={{"textAlign":"center"}}>Designed and Developed By <a href="https://www.allwebsites.in/" style={{"color":"antiquewhite"}}>SRIKRISHNA</a> &#169; All Rights Reserved.</p>
-                </div>
+                <Footer />
             </div>
         </>
     )
