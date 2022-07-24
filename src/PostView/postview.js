@@ -1,8 +1,8 @@
-import Logo from "../assests/instaclone.svg";
-import Camera from "../assests/camera.gif";
+import Header from "../Header/header";
 import { useEffect, useState} from "react";
 import "./post-view.css";
 import axios from "axios";
+import Header from "../Header/header";
 
 const PostView = ()=> {
     const [userData, setPostData] = useState([]);
@@ -21,10 +21,7 @@ const PostView = ()=> {
         <>
             <div className="container">
                 <header>
-                    <div className="nav">
-                        <a href="/"> <img src={Logo} alt="insta-logo" id="logo" title="Go to Home Page"></img></a>
-                        <a href="./postform"><img src={Camera} alt="camera" id="camera" title="Post now your memories!"></img></a>
-                    </div>
+                    <Header />
                 </header>
                 <div className="postContainer">
                     {
