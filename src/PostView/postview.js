@@ -1,4 +1,3 @@
-import Header from "../Header/header";
 import { useEffect, useState} from "react";
 import "./post-view.css";
 import axios from "axios";
