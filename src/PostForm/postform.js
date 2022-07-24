@@ -18,7 +18,7 @@ const PostForm = () =>{
     })
 
     const afterUpload = async (e)=>{
-        console.log("Hello")
+        //console.log("Hello")
         const file = e.target.files[0]
         const base64 = await convertbase64(file)
         setPosts({...posts,image:base64})
