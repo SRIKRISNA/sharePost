@@ -22,13 +22,13 @@
     margin: 20vh 5vw 0 0;
 
 }
-button{
+button, #submitbtn{
     border: 1px solid #004aad;
     color: #004aad;
     border-radius: 10px;
     padding: 7px 30px;
 }
-button:hover{
+button:hover, #submitbtn:hover{
     background: #004aad;
     color: white;
 }
