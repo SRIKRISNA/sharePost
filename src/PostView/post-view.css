@@ -68,7 +68,15 @@ h3 > span{
     padding-right: 10px;
     margin-top: 7px;
 }
-
+#delete_btn{
+    border-color: red;
+    padding: 2px 5px ;
+    color: red;
+}
+#delete_btn:hover{
+    background-color: red;
+    color: white;
+}
 /* footer */
 #footer{
     background: #7f0392;

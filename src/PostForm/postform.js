@@ -28,7 +28,7 @@ const PostForm = () =>{
     const handlePosts =()=>{
         console.log(posts);
         axios({
-            url: "https://instacloneserver.herokuapp.com/postform",
+            url: "http://localhost:3005/postform",
             method: "POST",
             headers: {
             },
