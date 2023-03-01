@@ -28,7 +28,7 @@ const PostForm = () =>{
     const handlePosts =()=>{
         console.log(posts);
         axios({
-            url: "http://localhost:3005/postform",
+            url: "/postform",
             method: "POST",
             headers: {
             },

@@ -7,7 +7,7 @@ import Footer from "../Footer/footer";
 const PostView = () => {
     const [userData, setPostData] = useState([]);
     useEffect(() => {
-        axios.get('http://localhost:3005/postform').then((res) => {
+        axios.get('/postform').then((res) => {
             let data = res.data.reverse();
             console.log(data)
             setPostData(data);
@@ -17,7 +17,7 @@ const PostView = () => {
     }, []);
 
     function deletePost(_id) {
-        axios.delete(`http://localhost:3005/delete/${_id}`).then((res) => {
+        axios.delete(`/delete/${_id}`).then((res) => {
             const newList = userData.filter((item) => item._id !== _id);
             setPostData(newList);
             console.log("post deleted");
